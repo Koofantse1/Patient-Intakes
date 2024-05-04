@@ -6,4 +6,6 @@ import com.blit.Models.PatientsVitalsModel;
 
 public interface PatientIntakeRepo extends JpaRepository<PatientsVitalsModel, Integer>{
 
+	
+
 }

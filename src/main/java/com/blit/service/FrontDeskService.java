@@ -20,6 +20,9 @@ public class FrontDeskService {
 	public FrontDeskPIntakes addNewPatient(FrontDeskPIntakes frontDeskPIntakes) {
 		return frontDeskRepo.save(frontDeskPIntakes);
 	}
+	public FrontDeskPIntakes deletePatient(FrontDeskPIntakes frontDeskIntakes) {
+		return frontDeskRepo.save(frontDeskIntakes);
+	}
 				
 
 }
